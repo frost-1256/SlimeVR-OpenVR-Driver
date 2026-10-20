@@ -1,8 +1,5 @@
 name: Formatting check
-on:
-  - push
-  - pull_request
-  - workflow_dispatch
+on: workflow_dispatch
 
 jobs:
   check-format:

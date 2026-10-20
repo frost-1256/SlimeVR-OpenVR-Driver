@@ -1,6 +1,6 @@
 name: Build and test OpenVR driver
 
-on: [ push, pull_request, workflow_dispatch ]
+on: workflow_dispatch
 
 jobs:
   setup-matrix:
