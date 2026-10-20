@@ -33,3 +33,7 @@ vcpkg_installed/
 build/*
 out/
 /.vscode
+
+# Add exceptions so the driver/ assets copied into build/ by CMake are tracked
+!build/
+!build/driver/
