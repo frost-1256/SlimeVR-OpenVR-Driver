@@ -40,5 +40,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: slimevr-openvr-driver-win64
-          path: build/driver
+          path: build/Release/driver
           if-no-files-found: error
